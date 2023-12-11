@@ -1,0 +1,98 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+/* @import url('https://fonts.googleapis.com/css2?family=Unica+One&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;700&family=Unica+One&display=swap');
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #8d2424; /* #2e8555; */
+  --ifm-color-primary-darker: #651a1a; /* #277148; */
+  --ifm-color-primary-dark: #791f1f; /* #29784c; */
+  --ifm-color-primary-darkest: #501414; /* #205d3b; */
+  --ifm-color-primary-light: #a12929; /* #33925d; */
+  --ifm-color-primary-lighter: #b52e2e; /* #359962; */
+  --ifm-color-primary-lightest: #ca3434; /* #3cad6e; */
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #8d2424; /* #2e8555; */
+  --ifm-color-primary: #bc7c70;
+  --ifm-color-primary-darker: #651a1a; /* #277148; */
+  --ifm-color-primary-dark: #791f1f; /* #29784c; */
+  --ifm-color-primary-darkest: #501414; /* #205d3b; */
+  --ifm-color-primary-light: #a12929; /* #33925d; */
+  --ifm-color-primary-lighter: #b52e2e; /* #359962; */
+  --ifm-color-primary-lightest: #ca3434; /* #3cad6e; */
+  --ifm-code-font-size: 95%;
+  --ifm-navbar-search-input-background-color: #192533;
+  --ifm-navbar-search-input-background-color: #313b49;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme='dark'] {
+  --primary-bg: #222436;
+  --ifm-background-color: #0f161e;
+  --ifm-navbar-background-color : #27374D;
+  --ifm-background-surface-color: #222436;
+}
+
+nav.navbar {
+    background: #27374D;
+    background: #1f2c3d;
+    background: #1b2635;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #17212e;
+  --ifm-footer-padding-vertical: 1.3rem;
+  /* --ifm-footer-padding-horizontal: ; */
+}
+
+article strong {
+  background: none;
+  color : #70b0bc;
+}
+
+.navbar__title {
+  font-size: 1.7rem;
+  font-family: 'Unica One', sans-serif;
+}
+
+article {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/* Inline code */
+mark.todo, code {
+    font-size: .85rem;
+    color: #f9fafb;
+    background: #374151;
+    padding: .20rem .375rem;
+    border-radius: .3rem;
+}
+
+mark.todo::before {
+  content: "// TODO ";
+  font-size: 0.825rem;
+  color: #162325;
+  font-weight: bold;
+}
+
+mark.todo {
+  font-family: monospace;
+  background: #598c96;
+}
+
+button.button.button-secondary[title="Collapse sidebar"] svg {
+  color: green !important;
+}
+
+pre code {
+    background: #192533 !important;
+}
