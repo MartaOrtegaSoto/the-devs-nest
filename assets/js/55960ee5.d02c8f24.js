@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkthe_devs_nest=self.webpackChunkthe_devs_nest||[]).push([[121],{8070:e=>{e.exports=JSON.parse('[{"label":"Java","permalink":"/tags/java","count":1},{"label":"SpringBoot","permalink":"/tags/spring-boot","count":4}]')}}]);
